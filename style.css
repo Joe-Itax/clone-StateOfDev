@@ -23,10 +23,15 @@ header > a > img{
 }
 
 nav{
-  position: relative;
+  position: fixed;
   top: 0px; 
-  left: 50rem;
+  left: 59rem;
   width: 25%;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  border-left: 2px solid #fff;
+  padding: 5rem .6rem .6rem 2rem;
+  height: 100%;
 }
 
 main{
