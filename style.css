@@ -1,0 +1,38 @@
+/*Imporatation de la police Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  background-color: #212529;
+  padding-left: 2.5rem;
+}
+
+header {
+  padding-top: 1rem;
+}
+
+header > a > img{
+  width: 13.75rem;
+}
+
+nav{
+  position: relative;
+  top: 0px; 
+  left: 50rem;
+  width: 25%;
+}
+
+main{
+  width: 75%;
+}
+
+a {
+  text-decoration: none;
+}
