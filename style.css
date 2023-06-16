@@ -9,33 +9,159 @@
   color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #212529;
-  padding-left: 2.5rem;
 }
 
 header {
-  padding-top: 1rem;
+  width: 60%;
+  height: 3rem;
+  padding: 3.5rem;
 }
 
-header > a > img{
+header>.logo>a>img {
   width: 13.75rem;
 }
 
-nav{
-  position: fixed;
-  top: 0px; 
-  left: 59rem;
-  width: 25%;
-  scroll-behavior: smooth;
-  overflow-y: scroll;
-  border-left: 2px solid #fff;
-  padding: 5rem .6rem .6rem 2rem;
-  height: 100%;
+header .menu-icon{
+  display: none;
 }
 
-main{
-  width: 75%;
+nav {
+  position: fixed;
+  top: -1rem;
+  right: 0;
+  width: 25%;
+  overflow-y: scroll;
+  /*overflow-x: hidden;*/
+  border-left: 2px solid #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuNav,
+.infosuplementaire,
+.copyright {
+  padding: 5rem .6rem .6rem 2rem;
+}
+
+.menuNav .aNavigation {
+  font-size: 1.13rem;
+}
+
+.menuNav .aNavigation:hover {
+  color: #d92950;
+}
+
+table {
+  margin: auto;
+  width: 2rem;
+}
+
+table:nth-last-child {
+  padding: 0;
+  width: 100%;
+}
+
+td {
+  border-bottom: 2px solid #fff;
+  padding: .7rem 10rem .7rem 0;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/*nav .aNavigation {
+  padding: 3rem 0rem .3rem 0;
+  border: 1px solid #fff;
+}*/
+
+.infosuplementaire {
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+.infosuplementaire h4 {
+  color: #d92950;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.copyright hr {
+  width: 100% !important;
+  border: 1px solid #fff;
+}
+
+.copyright .copyLink {
+  text-align: center;
+  padding: 1px 32px;
+}
+
+@media screen and (max-width: 900px){
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.5rem;
+  }
+
+  header .menu-icon{
+    display: block;
+    margin-top: -1.7rem;
+  }
+  
+  header .menu-icon i{
+    cursor: pointer;
+    width: 50rem;
+    margin-top: -40rem;
+  }
+
+  nav{
+    display: none;
+  }
+}
+
+/*.nonPaddBottom {
+  border: none !important;
+}*/
+
+main {
+  width: 60%;
+  padding: 3.5rem;
+}
+
+main h1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+main h1 span {
+  color: #d92950;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-p {
+  width: 50%;
+  text-align: justify;
+  font-size: 1.13rem;
+}
+
+.intro-img {
+  width: 50%;
 }
 
 a {
