@@ -9,44 +9,48 @@
   <!--Importation des icones-->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
   <!--Icone d'onglet-->
-  <link href="Img/icone-d_onglet.png" rel="icon" type="Image/png">
+  <link href="Img/icone d'onglet.png" rel="icon" type="Image/png">
 </head>
 
 <body>
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="ri-menu-line"></i>
+  </label>
+  <label for="check" class="uncheckbtn">
+    <i class="ri-menu-unfold-fill"></i>
+  </label>
   <header>
     <div class="logo">
       <a href="#"><img src="Img/logo_white-10933d66b1c8b5fd09d650170078fdb0.png" alt="Logo du site"></a>
-    </div>
-    <div class="menu-icon">
-      <i class="ri-menu-fill" id="menu-icon-nav" onclick="seeNav();"></i>
     </div>
   </header>
   <nav id="nav">
     <div class="menuNav">
       <table>
         <tr>
-          <td><a href="#" class="aNavigation">Acccueil</a></td>
+          <td><a href="#accueil" class="aNavigation">Acccueil</a></td>
         </tr>
         <tr>
-          <td><a href="#" class="aNavigation">Aperçu</a></td>
+          <td><a href="#aperçu" class="aNavigation">Aperçu</a></td>
         </tr>
         <tr>
-          <td><a href="#" class="aNavigation">Résumé</a></td>
+          <td><a href="#résumé" class="aNavigation">Résumé</a></td>
         </tr>
         <tr>
-          <td><a href="#" class="aNavigation">Profils de devs</a></td>
+          <td><a href="#profilDev" class="aNavigation">Profils de devs</a></td>
         </tr>
         <tr>
-          <td><a href="#" class="aNavigation">Education</a></td>
+          <td><a href="#education" class="aNavigation">Education</a></td>
         </tr>
         <tr>
-          <td><a href="#" class="aNavigation">Technologies</a></td>
+          <td><a href="#technologie" class="aNavigation">Technologies</a></td>
         </tr>
         <tr>
-          <td><a href="#" class="aNavigation">Travail</a></td>
+          <td><a href="#travail" class="aNavigation">Travail</a></td>
         </tr>
         <tr>
-          <td><a href="#" class="aNavigation">Méthodologies</a></td>
+          <td><a href="#methodologie" class="aNavigation">Méthodologies</a></td>
         </tr>
       </table>
     </div>
@@ -76,7 +80,8 @@
           <td>
             <a href="mailto:josephitakala18@gmail.com" class="non">
               <h4>Boostez votre carrière professionnelle</h4>
-              <p>Devenez Développeur.se ou Spécialiste en Marketing Digital en 9 mois de formation certifiante suivie de 3 à 6 mois de stage, et trouvez de l'emploi.
+              <p>Devenez Développeur.se ou Spécialiste en Marketing Digital en 9 mois de formation certifiante suivie de
+                3 à 6 mois de stage, et trouvez de l'emploi.
               </p>
             </a>
           </td>
@@ -85,17 +90,19 @@
     </div>
 
     <div class="copyright">
-      <div class="hr">
-        <hr>
-      </div>
+      <hr>
       <div class="copyLink">
-        <a href="https://www.kinshasadigital.academy/" class="nonPaddBottom">© Kinshasa Digital Academy 2022</a>
+        <a href="https://www.kinshasadigital.academy/" class="nonPaddBottom" target="_blank">&copy; Kinshasa Digital
+          Academy 2022</a>
       </div>
     </div>
   </nav>
 
+
+  <!-------------------Section Main---------------------->
   <main>
-    <h1>
+    <!-------------------Accueil---------------------->
+    <h1 id="accueil">
       Kinshasa Digital Developer Survey
       <br>
       <span>2021</span>
@@ -106,24 +113,28 @@
           technologies, leurs façons d’apprendre et ce qu’ils(elles) veulent pour leurs carrières.</p>
       </div>
       <div class="intro-img">
-        <img src="Img/rafiki.png" alt="" style="width: 15rem;">
+        <img src="Img/rafiki.png" alt="">
       </div>
     </div>
-    <div>
-      <div>
-        <a href="#">Lire l'aperçu</a>
+
+
+    <div class="accueil-btn">
+      <div class="read-btn">
+        <a href="#aperçu">Lire l'aperçu</a>
       </div>
-      <div>
-        <a href="#" download="#">Télecharger le rapport 2021</a>
+      <div class="download-btn">
+        <a href="Img/academic.png" download="Img/academic.png">Télecharger le rapport 2021</a>
       </div>
     </div>
+
+
+    <a></a>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
   </main>
-  <a></a>
-  <header></header>
-  <header></header>
-  <header></header>
-  <header></header>
-  <header></header>
 
 
 
